@@ -1,0 +1,1 @@
+(()=>{"use strict";alert("Is this how this works?"),console.log("First Test Again")})();
