@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+
+#content {
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+body {
+    background-color:#061b0a;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#navLinks {
+    list-style-type: none;
+    display: flex;
+}
+
+#navLinks button {
+    padding: 0 50px 0 50px;
+    margin: 25px 10px;
+    height: 50px;
+} 
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    background: url("./media/foodBackground.jpg") center, url("./media/foodBackground2.jpg") center;
+    background-size: cover;
+    border-radius: 12px;
+    padding-bottom: 50px;
+}
+
+.menuPadding {
+    padding: 50px 0 70px 0;
+}
+
+.dataContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #061b0a;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 25px 50px 25px;
+    color: white;
+    font-size: x-large;
+    border-radius: 12px;
+    /* TESTING */
+    /* border: 2px solid pink; */
+}
+
+#companyHeaderLogo {
+    /* padding-top: 25px; */
+    width: 300px;
+    /* height: 100px;
+    background-color: whitesmoke; */
+    margin: auto;
+    margin-top: 15px;
+}
+
+button {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: larger;
+}
+
+footer {
+    width: 50vw;
+    background-color: #061b0a;
+    margin: auto;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+footer p {
+    color: white;
+    margin: 25px;
+}
+
+.pageHeader {
+    padding-bottom: 20px;
+    font-size: xx-large;
+    /* TESTING */
+    /* border: 2px solid pink; */
+
+}
+
+#menuItemContainer {
+    padding: 15px;
+    font-size: large;
+    /* TESTING */
+    /* border: 2px solid pink; */
+}
+
+#menuItemContainer p {
+    padding: 5px;
+
+}
+
+#logo {
+    position: relative;
+    width: 300px;
+}
+
+#menuItemFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#hoursDataContainer {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contactPage {
+    margin: 10px;
+}
+
+h3 {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+}
