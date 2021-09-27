@@ -14,14 +14,14 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             // title: "KP's Bistro",
-            template: '/dist/index.html'
+            template: './index copy.html'
         }),
     ],
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
-        publicPath: '/',
+        publicPath: './',
     },
     module: {
         rules: [
